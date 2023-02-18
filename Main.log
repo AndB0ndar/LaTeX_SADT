@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  15 FEB 2023 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  18 FEB 2023 21:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -359,7 +359,7 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count266
 \l__pdf_internal_box=\box50
 )
-(./Main.aux (./res/titleSADT.aux))
+(./Main.aux (./res/titleSADT.aux) (./FirstTask/pract1.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -497,10 +497,6 @@ File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-05-52.png
 Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
 -02-14 11-05-52.png  used on input line 57.
 (pdftex.def)             Requested size: 375.57782pt x 120.92955pt.
-
-
-LaTeX Warning: Reference `fig:git:init' on page 5 undefined on input line 64.
-
 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-21-16.png, id=
 39, 1091.07625pt x 383.4325pt>
 File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-21-16.png
@@ -508,18 +504,14 @@ File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-21-16.png
 <use /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-21-16.png>
 
 Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
--02-14 11-21-16.png  used on input line 67.
+-02-14 11-21-16.png  used on input line 68.
 (pdftex.def)             Requested size: 375.57782pt x 131.98596pt.
-[5 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-05-52.png>]
-
-Underfull \hbox (badness 5519) in paragraph at lines 81--86
+ [5 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-05-52.png>
+]
+Underfull \hbox (badness 5519) in paragraph at lines 82--87
 []\T2A/cmr/m/n/14.4 Чтобы про-ве-рить со-сто-я-ние ре-по-зи-то-рия, вы-пол-ним 
 ко-ман-ду:
  []
-
-
-LaTeX Warning: Reference `fig:git:first_commit' on page 6 undefined on input li
-ne 87.
 
 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-32-30.png, id=
 45, 1090.0725pt x 260.975pt>
@@ -528,43 +520,165 @@ File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-32-30.png
 <use /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-32-30.png>
 
 Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
--02-14 11-32-30.png  used on input line 90.
+-02-14 11-32-30.png  used on input line 91.
 (pdftex.def)             Requested size: 375.57782pt x 89.917pt.
-) [6 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-21-16.png
-> </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-32-30.png>]
-(./Main.aux (./res/titleSADT.aux) (./FirstTask/pract1.aux))
+[6 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-21-16.png> 
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-14 11-32-30.png>]
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 19-43-35.png, id=
+51, 1091.07625pt x 285.065pt>
+File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 19-43-35.png
+ Graphic file (type png)
+<use /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 19-43-35.png>
 
-LaTeX Warning: There were undefined references.
+Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
+-02-18 19-43-35.png  used on input line 106.
+(pdftex.def)             Requested size: 375.57782pt x 98.12569pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--119
+[]\T2A/cmr/m/n/14.4 Теперь, что-бы со-хра-нить из-мен-не-ния в ре-по-зи-то-рии,
+
+ []
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Underfull \hbox (badness 10000) in paragraph at lines 113--119
+\T2A/cmr/m/n/14.4 необ-хо-ди-мо сде-лать ком-мит. Для это-го су-ще-ству-ет ко-м
+ан-да
+ []
 
- ) 
+
+Underfull \hbox (badness 1072) in paragraph at lines 113--119
+\T2A/cmtt/m/n/14.4 git commit -m "текст коммита" \T2A/cmr/m/n/14.4 (см. ри-су-н
+ок 6[]). Флаг \T2A/cmtt/m/n/14.4 -m \T2A/cmr/m/n/14.4 поз-во-ля-ет
+ []
+
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 19-51-38.png, id=
+52, 1091.07625pt x 145.54375pt>
+File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 19-51-38.png
+ Graphic file (type png)
+<use /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 19-51-38.png>
+
+Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
+-02-18 19-51-38.png  used on input line 122.
+(pdftex.def)             Requested size: 375.57782pt x 50.09938pt.
+[7 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 19-43-35.png> 
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 19-51-38.png>]
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-09-49.png, id=
+59, 1091.07625pt x 568.1225pt>
+File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-09-49.png
+ Graphic file (type png)
+<use /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-09-49.png>
+
+Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
+-02-18 20-09-49.png  used on input line 145.
+(pdftex.def)             Requested size: 328.6279pt x 171.11423pt.
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-14-31.png, id=
+60, 1091.07625pt x 335.2525pt>
+File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-14-31.png
+ Graphic file (type png)
+<use /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-14-31.png>
+
+Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
+-02-18 20-14-31.png  used on input line 152.
+(pdftex.def)             Requested size: 328.6279pt x 100.97552pt.
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-21-34.png, id=
+61, 1091.07625pt x 852.18375pt>
+File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-21-34.png
+ Graphic file (type png)
+<use /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-21-34.png>
+
+Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
+-02-18 20-21-34.png  used on input line 163.
+(pdftex.def)             Requested size: 375.57782pt x 293.34053pt.
+
+[8 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-09-49.png> 
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-14-31.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+[]\T2A/cmr/m/n/14.4 Для уточ-не-ния фор-ма-та ло-га ис-поль-зу-ет-ся флаг
+ []
+
+
+Overfull \hbox (12.88159pt too wide) in paragraph at lines 173--173
+[]\T2A/cmtt/m/n/14.4 git log --pretty=format:"%h %ad | %s%d [%an]" --graph --da
+te=short[] 
+ []
+
+[9 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-21-34.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
+[]\T2A/cmr/m/n/14.4 Приведем пир-мер од-но-го из фор-ма-ти-ро-ва-ния вы-во-да и
+с-то-
+ []
+
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-35-49.png, id=
+71, 1091.07625pt x 147.55125pt>
+File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-35-49.png
+ Graphic file (type png)
+<use /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-35-49.png>
+
+Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
+-02-18 20-35-49.png  used on input line 191.
+(pdftex.def)             Requested size: 375.57782pt x 50.7904pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--203
+[]\T2A/cmr/m/n/14.4 Для от-ме-ны из-ме-не-ний в ре-по-зи-то-рии су-ще-ству-ет к
+о-ман-да
+ []
+
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-54-01.png, id=
+72, 1091.07625pt x 327.2225pt>
+File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-54-01.png
+ Graphic file (type png)
+<use /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-54-01.png>
+
+Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
+-02-18 20-54-01.png  used on input line 211.
+(pdftex.def)             Requested size: 375.57782pt x 112.63724pt.
+[10 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-35-49.png>
+ </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 20-54-01.png>]
+[11]
+</home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 21-08-19.png, id=
+81, 1091.07625pt x 153.57375pt>
+File: /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 21-08-19.png
+ Graphic file (type png)
+<use /home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 21-08-19.png>
+
+Package pdftex.def Info: /home/arbon/Pictures/Screenshots//Screenshot from 2023
+-02-18 21-08-19.png  used on input line 257.
+(pdftex.def)             Requested size: 375.57782pt x 52.86348pt.
+)
+Underfull \hbox (badness 7362) in paragraph at lines 268--18
+[]\T2A/cmr/m/n/14.4 Для от-ме-ны из-ме-не-ний в ре-по-зи-то-рии су-ще-ству-ет к
+о-ман-да:
+ []
+
+[12 </home/arbon/Pictures/Screenshots//Screenshot from 2023-02-18 21-08-19.png>
+] (./Main.aux (./res/titleSADT.aux) (./FirstTask/pract1.aux)) ) 
 Here is how much of TeX's memory you used:
- 5181 strings out of 479721
- 90407 string characters out of 5887697
- 378329 words of memory out of 5000000
- 23015 multiletter control sequences out of 15000+600000
+ 5262 strings out of 479721
+ 95203 string characters out of 5887697
+ 378770 words of memory out of 5000000
+ 23086 multiletter control sequences out of 15000+600000
  486050 words of font info for 60 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  70i,7n,77p,280b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1440.600pk
-> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600p
-k> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk
-> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk>
- </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk> 
-</home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.600pk> <
-/home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </
-home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </h
-ome/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </ho
-me/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labi1728.600pk> </hom
-e/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labi1440.600pk> </home
-/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/
-arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk>
-Output written on Main.pdf (6 pages, 417910 bytes).
+ </home/arbon/.t
+exlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1440.600pk> </home/arbon/.te
+xlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk> </home/arbon/.t
+exlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/arbon/.te
+xlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk> </home/arbon/.tex
+live2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk> </home/arbon/.texl
+ive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.600pk> </home/arbon/.texli
+ve2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </home/arbon/.texliv
+e2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/arbon/.texlive
+2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/arbon/.texlive2
+021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labi1728.600pk> </home/arbon/.texlive20
+21/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labi1440.600pk> </home/arbon/.texlive202
+1/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/arbon/.texlive2021
+/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk>
+Output written on Main.pdf (12 pages, 907635 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 571 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 

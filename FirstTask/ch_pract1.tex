@@ -1,0 +1,196 @@
+Для индексации изменений необходимо выполнить команды:
+
+\begin{verbatim}
+	git add <Название вашего файла>
+	git commit -m "Ваш текст для коммита"
+\end{verbatim}
+
+Результат выполнения этих команд показан на рисунке \ref{fig:git:second_commit}.
+
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 11-42-12.png}
+	\caption{Индексация изменений}
+	\label{fig:git:second_commit}
+\end{figure}
+Теперь Git знает об изменении.
+
+\subsection{Индексация и коммит}
+Создадим в директории еще 3 файла
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 11-47-06.png}
+	\caption{Создание файлов}
+	\label{fig:git:files}
+\end{figure}
+Отредактирум эти файл. Теперь  закуммитим все изменения, при этом чтобы изменения в a.html и b.html были одним
+коммитом, в то время как изменения в c.html логически не связаны с первыми двумя
+файлами и должны идти отдельным коммитом.
+Введем следующие команды:
+\begin{verbatim}
+	git add a.html b.html
+	git commit -m "Изменения в a.html и b.html"
+	git add c.html
+	git commit -m "Изменения в c.html"
+\end{verbatim}
+
+\subsection{Коммиты нескольких изменений}
+Чтобы добавить несколько изменений в один коммит, необходимо выполнить следующие команды:
+\begin{verbatim}
+	git add .
+	git commit -m "Ваш текст для коммита"
+\end{verbatim}
+Результат выполнения этих команд показан на рисунке \ref{fig:git:commit}.
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 11-57-00.png}
+	\caption{Коммиты нескольких изменений}
+	\label{fig:git:commit}
+\end{figure}
+
+\subsection{Просмотр истории коммитов}
+Для просмотра истории коммитов необходимо выполнить команду \texttt{git log}.
+Результат выполнения этой команды показан на рисунке \ref{fig:git:log}.
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 12-00-00.png}
+	\caption{Просмотр истории коммитов}
+	\label{fig:git:log}
+\end{figure}
+Команда \texttt{git log} позволяет контролировать формат выводимой информации:
+\begin{verbatim}
+	git log --pretty=oneline
+\end{verbatim}
+Результат выполнения этой команды показан на рисунке \ref{fig:git:log:pretty}.
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 12-02-00.png}
+	\caption{Просмотр истории коммитов с помощью команды \texttt{git log --pretty=oneline}}
+	\label{fig:git:log:pretty}
+\end{figure}
+Для контроля отображения записей можно использовать следующие параметры:
+\begin{itemize}
+	\item \texttt{--since} - отображать записи, созданные после указанной даты
+	\item \texttt{--until} - отображать записи, созданные до указанной даты
+	\item \texttt{--author} - отображать записи, созданные указанным автором
+	\item \texttt{--grep} - отображать записи, содержащие указанную строку
+\end{itemize}
+Для примера выполним команду
+\begin{verbatim}
+	git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+\end{verbatim}
+Рассмотрим её в деталях:
+\begin{itemize}
+	\item \texttt{\%h} - сокращенный хэш коммита
+	\item \texttt{\%d} - дополнения коммита
+	\item \texttt{\%ad} - дата коммита
+	\item \texttt{\%s} - сообщение коммита
+	\item \texttt{\%an} - автор коммита
+	\item \texttt{--graph} - отображение графа коммитов
+	\item \texttt{--date=short} - короткая дата
+\end{itemize}
+Результат выполнения этой команды показан на рисунке \ref{fig:git:log:pretty:format}.
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 12-06-00.png}
+	\caption{Просмотр истории коммитов с помощью команды \texttt{git log --pretty=format:"\%h \%ad | \%s\%d [\%an]" --graph --date=short}}
+	\label{fig:git:log:pretty:format}
+\end{figure}
+
+\subsection{Получение старых версий}
+Для получение старой версии нашего каталога необходимо узнать для начала хэши,для этого воспользуемся командой из предыдущего шага:
+\begin{verbatim}
+	git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+\end{verbatim}
+Результат выполнения этой команды показан на рисунке \ref{fig:git:log:pretty:format}.
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 12-06-00.png}
+	\caption{Просмотр истории коммитов с помощью команды \texttt{git log --pretty=format:"\%h \%ad | \%s\%d [\%an]" --graph --date=short}}
+	\label{fig:git:log:pretty:format}
+\end{figure}
+Теперь, зная хэши, можно получить старые версии файлов, для этого необходимо выполнить команду:
+\texttt{git checkout хэш\_файла}
+Результатом будет:
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 12-09-00.png}
+	\caption{Получение старых версий}
+	\label{fig:git:checkout}
+\end{figure}
+
+\subsection{Отмена изменений (до индексации)}
+Для отмены изменений необходимо выполнить команду:
+\begin{verbatim}
+	git checkout master
+\end{verbatim}
+Результат выполнения этой команды показан на рисунке \ref{fig:git:checkout:--}.
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 12-11-00.png}
+	\caption{Отмена изменений (до индексации)}
+	\label{fig:git:checkout:--}
+\end{figure}
+
+\subsection{Отмена изменений (после индексации)}
+Для отмены изменений необходимо выполнить команду:
+\begin{verbatim}
+	git reset HEAD имя_файла
+\end{verbatim}
+Результат выполнения этой команды показан на рисунке \ref{fig:git:reset:HEAD}.
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 12-13-00.png}
+	\caption{Отмена изменений (после индексации)}
+	\label{fig:git:reset:HEAD}
+\end{figure}
+После этого нужно убрать нежелательный комментарий.
+\begin{verbatim}
+	git checkout -- project.html
+\end{verbatim}
+
+\subsection{Отмена коммита}
+Для отмены коммита необходимо выполнить команду:
+\begin{verbatim}
+	git revert --hard HEAD~1
+\end{verbatim}
+После выполнения данной команды откроется редактор, который предложит вам
+отредактировать коммит или вы можете оставить его как есть. Можно также
+воспользоваться параметром \texttt{--no-edit}
+Результатом данной команды будет:
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 12-16-00.png}
+	\caption{Отмена коммита}
+	\label{fig:git:revert:--hard:HEAD~1}
+\end{figure}
+Проверим историю коммитов при помощи команды
+\begin{verbatim}
+	git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+\end{verbatim}
+Результат выполнения этой команды показан на рисунке \ref{fig:git:log:pretty:format}.
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-14 12-06-00.png}
+	\caption{Просмотр истории коммитов с помощью команды \texttt{git log --pretty=format:"\%h \%ad | \%s\%d [\%an]" --graph --date=short}}
+	\label{fig:git:log:pretty:format}
+\end{figure}
+
+\section{Управление репозиториями}
+\subsection{Создание аккаунта на GitHub}
+Для создания аккаунта на GitHub необходимо зайти на сайт \url{https://github.com} и нажать на кнопку
+\texttt{Sign up for GitHub}. Далле идет регистрация, после чего необходимо подтвердить свой аккаунт по почте.
+
+\subsection{Создание ssh-ключа}
+Сначала проверим, есть ли уже на компьютере ключ. По умолчанию SSH-ключи
+хранятся в каталоге \texttt{~/.ssh}, поэтому нужно проверить содержимое этого каталога.
+Открываем консоль и вводим команду:
+\begin{verbatim}
+	ssh-keygen -t rsa -b 4096 -C "your_mail@example.com"
+\end{verbatim}
+Далее нужно указать расположение файла для сохранения ключа. Если вы не
+введёте путь до файла и просто нажмёте Enter, ключ сохранится в файле,
+указанном в скобках.
+Теперь нужно установить пароль к вашему ключу и дважды ввести его. Если вы не
+хотите вводить пароль каждый раз, когда используете ключ, пропустите этот шаг,
+нажав «Enter», и ничего не вводите.

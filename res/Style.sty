@@ -27,8 +27,8 @@
 	\setlength{\parskip}{0pt}
 	\setlength{\parsep}{0pt}
 	\setlength{\topsep}{0pt}
-	\setlength{\partopsep}{0pt}
-}}{\end{list}}
+	\setlength{\partopsep}{0pt}}
+}{ \end{list} }
 
 % redefinition of the list enumeration style
 %\renewcommand{\labelitemi}{$\bullet$}
@@ -38,11 +38,21 @@
 % redefinition of the list itemize environment
 \renewenvironment{itemize}{
 	\begin{list}{\labelitemi}
-	  {\def\makelabel##1{\hss ##1}
+		{\def\makelabel##1{\hss ##1}
 	\setlength{\itemsep}{0pt}
 	\setlength{\parskip}{0pt}
 	\setlength{\parsep}{0pt}
 	\setlength{\topsep}{0pt}
 	\setlength{\partopsep}{0pt}
-}}{\end{list}}
+	}
+}{ \end{list} }
+
+\newcommand{\img}[3] {
+	\begin{figure}[h!tp]
+		\centering
+		\includegraphics[width=0.7\textwidth]{#1}
+		\caption{#2}
+		\label{img:#3}
+	\end{figure}
+}
 
