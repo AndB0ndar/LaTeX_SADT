@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  19 FEB 2023 15:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  19 FEB 2023 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -360,7 +360,8 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count267
 \l__pdf_internal_box=\box50
 )
-(./Main.aux (./res/titleSADT.aux) (./FirstTask/pract1.aux))
+(./Main.aux (./res/titleSADT.aux) (./FirstTask/pract1.aux)
+(./FirstTask/pract1_2.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -465,24 +466,24 @@ Underfull \hbox (badness 1147) in paragraph at lines 7--7
  в него 
  []
 
-)
+[2
+
+
+
+])
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
- [2
-
-
-
-]
+ [3]
 \openout2 = `./FirstTask/pract1.aux'.
 
- (./FirstTask/pract1.tex [3
+ (./FirstTask/pract1.tex [4
 
 
 ]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 10-47-
-05.png, id=31, 1107.13625pt x 894.34125pt>
+05.png, id=34, 1107.13625pt x 894.34125pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 1
 0-47-05.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 10
@@ -494,11 +495,11 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 32.
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [4
+) [5
 
 ]
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 11-05-
-52.png, id=40, 1091.07625pt x 351.3125pt>
+52.png, id=43, 1091.07625pt x 351.3125pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 1
 1-05-52.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 11
@@ -507,7 +508,7 @@ Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screensho
 t from 2023-02-14 11-05-52.png  used on input line 56.
 (pdftex.def)             Requested size: 375.57782pt x 120.92955pt.
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 11-21-
-16.png, id=41, 1091.07625pt x 383.4325pt>
+16.png, id=44, 1091.07625pt x 383.4325pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 1
 1-21-16.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 11
@@ -515,7 +516,7 @@ File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 1
 Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screensho
 t from 2023-02-14 11-21-16.png  used on input line 67.
 (pdftex.def)             Requested size: 375.57782pt x 131.98596pt.
- [5 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 202
+ [6 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 202
 3-02-14 10-47-05.png> </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/S
 creenshot from 2023-02-14 11-05-52.png>]
 Underfull \hbox (badness 5519) in paragraph at lines 81--86
@@ -524,7 +525,7 @@ Underfull \hbox (badness 5519) in paragraph at lines 81--86
  []
 
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 11-32-
-30.png, id=47, 1090.0725pt x 260.975pt>
+30.png, id=50, 1090.0725pt x 260.975pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 1
 1-32-30.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 11
@@ -532,10 +533,10 @@ File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-14 1
 Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screensho
 t from 2023-02-14 11-32-30.png  used on input line 90.
 (pdftex.def)             Requested size: 375.57782pt x 89.917pt.
-[6 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023
+[7 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023
 -02-14 11-21-16.png>]
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 19-43-
-35.png, id=52, 1091.07625pt x 285.065pt>
+35.png, id=56, 1091.07625pt x 285.065pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 1
 9-43-35.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 19
@@ -556,7 +557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--118
  []
 
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 19-51-
-38.png, id=53, 1091.07625pt x 145.54375pt>
+38.png, id=57, 1091.07625pt x 145.54375pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 1
 9-51-38.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 19
@@ -564,11 +565,11 @@ File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 1
 Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screensho
 t from 2023-02-18 19-51-38.png  used on input line 121.
 (pdftex.def)             Requested size: 375.57782pt x 50.09938pt.
-[7 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023
+[8 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023
 -02-14 11-32-30.png> </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Sc
 reenshot from 2023-02-18 19-43-35.png>]
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 20-09-
-49.png, id=60, 1091.07625pt x 568.1225pt>
+49.png, id=63, 1091.07625pt x 568.1225pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 2
 0-09-49.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 20
@@ -577,7 +578,7 @@ Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screensho
 t from 2023-02-18 20-09-49.png  used on input line 144.
 (pdftex.def)             Requested size: 328.6279pt x 171.11423pt.
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 20-14-
-31.png, id=61, 1091.07625pt x 335.2525pt>
+31.png, id=64, 1091.07625pt x 335.2525pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 2
 0-14-31.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 20
@@ -586,7 +587,7 @@ Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screensho
 t from 2023-02-18 20-14-31.png  used on input line 151.
 (pdftex.def)             Requested size: 328.6279pt x 100.97552pt.
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 20-21-
-34.png, id=62, 1091.07625pt x 852.18375pt>
+34.png, id=65, 1091.07625pt x 852.18375pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 2
 0-21-34.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 20
@@ -594,7 +595,7 @@ File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 2
 Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screensho
 t from 2023-02-18 20-21-34.png  used on input line 162.
 (pdftex.def)             Requested size: 375.57782pt x 293.34053pt.
- [8 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 202
+ [9 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 202
 3-02-18 19-51-38.png> </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/S
 creenshot from 2023-02-18 20-09-49.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
@@ -607,16 +608,16 @@ Overfull \hbox (12.88159pt too wide) in paragraph at lines 172--172
 te=short[] 
  []
 
-[9 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023
--02-18 20-14-31.png> </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Sc
-reenshot from 2023-02-18 20-21-34.png>]
+[10 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 202
+3-02-18 20-14-31.png> </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/S
+creenshot from 2023-02-18 20-21-34.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 185--187
 []\T2A/cmr/m/n/14.4 ѕриведем пир-мер од-но-го из фор-ма-ти-ро-ва-ни€ вы-во-да и
 с-то-
  []
 
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 20-35-
-49.png, id=73, 1091.07625pt x 147.55125pt>
+49.png, id=76, 1091.07625pt x 147.55125pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 2
 0-35-49.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 20
@@ -631,7 +632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--202
  []
 
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 20-54-
-01.png, id=74, 1091.07625pt x 327.2225pt>
+01.png, id=77, 1091.07625pt x 327.2225pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 2
 0-54-01.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 20
@@ -639,11 +640,11 @@ File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 2
 Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screensho
 t from 2023-02-18 20-54-01.png  used on input line 210.
 (pdftex.def)             Requested size: 375.57782pt x 112.63724pt.
-[10 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 202
-3-02-18 20-35-49.png>] [11 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBas
+[11 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 202
+3-02-18 20-35-49.png>] [12 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBas
 ics/Screenshot from 2023-02-18 20-54-01.png>]
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 21-08-
-19.png, id=83, 1091.07625pt x 153.57375pt>
+19.png, id=86, 1091.07625pt x 153.57375pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 2
 1-08-19.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-18 21
@@ -652,7 +653,7 @@ Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screensho
 t from 2023-02-18 21-08-19.png  used on input line 256.
 (pdftex.def)             Requested size: 422.52057pt x 59.47171pt.
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-19 15-24-
-48.png, id=84, 1088.065pt x 404.51125pt>
+48.png, id=87, 1088.065pt x 404.51125pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-19 1
 5-24-48.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-19 15
@@ -660,11 +661,11 @@ File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-19 1
 Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screensho
 t from 2023-02-19 15-24-48.png  used on input line 271.
 (pdftex.def)             Requested size: 328.6279pt x 122.17522pt.
- [12 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 20
+ [13 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 20
 23-02-18 21-08-19.png> </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/
 Screenshot from 2023-02-19 15-24-48.png>]
 <~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-19 15-27-
-04.png, id=90, 1088.065pt x 538.01pt>
+04.png, id=94, 1088.065pt x 538.01pt>
 File: ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-19 1
 5-27-04.png Graphic file (type png)
 <use ~/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 2023-02-19 15
@@ -678,40 +679,189 @@ Underfull \hbox (badness 7362) in paragraph at lines 290--18
 о-ман-да:
  []
 
-[13 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 202
-3-02-19 15-27-04.png>] (./Main.aux (./res/titleSADT.aux)
-(./FirstTask/pract1.aux))
+[14 </home/arbon/Documents/SftAppDvTech/FirstTask/TheBasics/Screenshot from 202
+3-02-19 15-27-04.png>]
+\openout2 = `./FirstTask/pract1_2.aux'.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+ (./FirstTask/pract1_2.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 16-04-27.png
+, id=99, 1062.97125pt x 571.13374pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 16-04-2
+7.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 16-04-27
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 16-04-27.png  used on input line 16.
+(pdftex.def)             Requested size: 375.57782pt x 201.79962pt.
+[15
 
- ) 
+
+
+
+]
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 16-38-18.png
+, id=103, 1089.06876pt x 542.025pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 16-38-1
+8.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 16-38-18
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 16-38-18.png  used on input line 34.
+(pdftex.def)             Requested size: 375.57782pt x 186.9161pt.
+ [16 </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-
+19 16-04-27.png> </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/Screenshot f
+rom 2023-02-19 16-38-18.png>]
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 16-45-31.png
+, id=109, 1089.06876pt x 125.46875pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 16-45-3
+1.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 16-45-31
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 16-45-31.png  used on input line 57.
+(pdftex.def)             Requested size: 375.57782pt x 43.26761pt.
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-08-36.png
+, id=110, 1298.8525pt x 797.98125pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-08-3
+6.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-08-36
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 17-08-36.png  used on input line 73.
+(pdftex.def)             Requested size: 375.57782pt x 230.73894pt.
+ [17 </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-
+19 16-45-31.png>]
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-16-49.png
+, id=115, 1157.32375pt x 411.5375pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-16-4
+9.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-16-49
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 17-16-49.png  used on input line 89.
+(pdftex.def)             Requested size: 375.57782pt x 133.55344pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
+[]\T2A/cmr/m/n/14.4 —оздание но-вой вет-ки в git вы-пол-н€-ет-с€ ко-ман-дой:
+ []
+
+[18 </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-1
+9 17-08-36.png> </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/Screenshot fr
+om 2023-02-19 17-16-49.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+[]\T2A/cmr/m/n/14.4 „тобы из-ме-нить те-ку-щую вет-ку есть ко-ман-да:
+ []
+
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-34-01.png
+, id=121, 1157.32375pt x 643.40375pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-34-0
+1.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-34-01
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 17-34-01.png  used on input line 107.
+(pdftex.def)             Requested size: 375.57782pt x 208.7994pt.
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-49-39.png
+, id=122, 1091.07625pt x 278.03876pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-49-3
+9.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-49-39
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 17-49-39.png  used on input line 119.
+(pdftex.def)             Requested size: 375.57782pt x 95.70709pt.
+
+Underfull \hbox (badness 7631) in paragraph at lines 124--126
+[]\T2A/cmr/m/n/14.4 —оздадим тег ука-зы-ва-ю-щий на по-след-ний ком-мит в вет-к
+е
+ []
+
+[19 </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-1
+9 17-34-01.png>]
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-54-18.png
+, id=128, 1091.07625pt x 232.87pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-54-1
+8.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 17-54-18
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 17-54-18.png  used on input line 130.
+(pdftex.def)             Requested size: 375.57782pt x 80.15901pt.
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-02-24.png
+, id=129, 1091.07625pt x 827.09pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-02-2
+4.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-02-24
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 18-02-24.png  used on input line 139.
+(pdftex.def)             Requested size: 375.57782pt x 284.70271pt.
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-06-52.png
+, id=130, 1091.07625pt x 439.6425pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-06-5
+2.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-06-52
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 18-06-52.png  used on input line 148.
+(pdftex.def)             Requested size: 375.57782pt x 151.33469pt.
+ [20 </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-
+19 17-49-39.png> </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/Screenshot f
+rom 2023-02-19 17-54-18.png> </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/
+Screenshot from 2023-02-19 18-02-24.png>]
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-20-49.png
+, id=137, 1091.07625pt x 573.14125pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-20-4
+9.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-20-49
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 18-20-49.png  used on input line 158.
+(pdftex.def)             Requested size: 375.57782pt x 197.28792pt.
+<~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-13-02.png
+, id=138, 1091.07625pt x 487.8225pt>
+File: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-13-0
+2.png Graphic file (type png)
+<use ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02-19 18-13-02
+.png>
+Package pdftex.def Info: ~/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from
+ 2023-02-19 18-13-02.png  used on input line 167.
+(pdftex.def)             Requested size: 375.57782pt x 167.91931pt.
+) [21 </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/Screenshot from 2023-02
+-19 18-06-52.png> </home/arbon/Documents/SftAppDvTech/FirstTask/RMS/Screenshot 
+from 2023-02-19 18-20-49.png>] [22 </home/arbon/Documents/SftAppDvTech/FirstTas
+k/RMS/Screenshot from 2023-02-19 18-13-02.png>] (./Main.aux (./res/titleSADT.au
+x)
+(./FirstTask/pract1.aux) (./FirstTask/pract1_2.aux)) ) 
 Here is how much of TeX's memory you used:
- 5310 strings out of 479721
- 97653 string characters out of 5887697
- 380303 words of memory out of 5000000
- 23124 multiletter control sequences out of 15000+600000
+ 5447 strings out of 479721
+ 106069 string characters out of 5887697
+ 380732 words of memory out of 5000000
+ 23241 multiletter control sequences out of 15000+600000
  489305 words of font info for 64 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 70i,7n,77p,282b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1440.600pk
-> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600p
-k> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk
-> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk>
- </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2986.600pk> 
-</home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk> <
-/home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx3583.600pk> </
-home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.600pk> </h
-ome/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </ho
-me/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </hom
-e/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home
-/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labi1728.600pk> </home/
-arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labi1440.600pk> </home/a
-rbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/ar
-bon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk>
-Output written on Main.pdf (13 pages, 1055741 bytes).
+ 70i,7n,77p,334b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/arbon/.texlive202
+1/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1440.600pk> </home/arbon/.texlive2021
+/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk> </home/arbon/.texlive202
+1/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/arbon/.texlive2021
+/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk> </home/arbon/.texlive2021/
+texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2986.600pk> </home/arbon/.texlive2021/t
+exmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk> </home/arbon/.texlive2021/te
+xmf-var/fonts/pk/ljfour/lh/lh-t2a/labx3583.600pk> </home/arbon/.texlive2021/tex
+mf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.600pk> </home/arbon/.texlive2021/texm
+f-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </home/arbon/.texlive2021/texmf
+-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/arbon/.texlive2021/texmf-
+var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/arbon/.texlive2021/texmf-v
+ar/fonts/pk/ljfour/lh/lh-t2a/labi1728.600pk> </home/arbon/.texlive2021/texmf-va
+r/fonts/pk/ljfour/lh/lh-t2a/labi1440.600pk> </home/arbon/.texlive2021/texmf-var
+/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/arbon/.texlive2021/texmf-var/
+fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk>
+Output written on Main.pdf (22 pages, 2046485 bytes).
 PDF statistics:
- 604 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 699 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
