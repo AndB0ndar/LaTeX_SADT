@@ -1,12 +1,11 @@
-\graphicspath{{/home/arbon/Pictures/Screenshots/}} % path to graphics
-\section*{\LARGE{Цель практической работы}}
-\addcontentsline{toc}{section}{Цель практической работы}
+%\graphicspath{{/home/arbon/Pictures/Screenshots/}} % path to graphics
+\graphicspath{{~/Documents/SftAppDvTech/FirstTask/TheBasics}}
+\chapter*{\LARGE{Цель практической работы}}
+\addcontentsline{toc}{chapter}{Цель практической работы}
 Получить навыки по работе с командной строкой и git’ом.
 
-\newpage
+\chapter{Основные команды Git}
 
-\section*{\LARGE{Выполнение практической работы}}
-\addcontentsline{toc}{section}{Выполнение практической работы}
 \section{Установка и настрока клиент git}
 \subsection{Установка git}
 Установка в Linux и Unix
@@ -254,15 +253,38 @@ GNU Privacy Guard (GPG). Обычно рекомендуется создава�
 
 \begin{figure}[h!tp]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-18 21-08-19.png}
+	\includegraphics[width=0.9\textwidth]{Screenshot from 2023-02-18 21-08-19.png}
 	\caption{Создание тега}
 	\label{fig:git:tag}
 \end{figure}
 
 \section{Отмена изменений в индексе}
-Чтобы отменить изменения внесенные в индекс используется
-команда: \texttt{git~restore}.
-Данное действие уже показано на рисунке \ref{fig:git:reset}.
+\subsection{Отмена изменений (до индексации)}
+Для отмены изменений необходимо выполнить команду:
+\begin{verbatim}
+	git checkout master
+\end{verbatim}
+Результат выполнения этой команды показан
+на рисунке~\ref{fig:git:checkout:b_indx}.
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Screenshot from 2023-02-19 15-24-48.png}
+	\caption{Отмена изменений (до индексации)}
+	\label{fig:git:checkout:b_indx}
+\end{figure}
+
+\subsection{Отмена изменений (после индексации)}
+Для отмены изменений, уже проиндексированных, необходимо выполнить команду:
+\begin{verbatim}
+	git reset HEAD имя_файла
+\end{verbatim}
+Результат выполнения этой команды показан на рисунке~\ref{fig:git:restore}.
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-19 15-27-04.png}
+	\caption{Отмена изменений (после индексации)}
+	\label{fig:git:restore}
+\end{figure}
 
 \section{Отмена коммита}
 Для отмены изменений в репозитории существует команда: \texttt{git~reset},
