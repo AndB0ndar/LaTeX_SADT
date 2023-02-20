@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  19 FEB 2023 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  20 FEB 2023 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -795,7 +795,7 @@ aphic file (type png)
 <use ~/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02-19 18-06-52.png>
 Package pdftex.def Info: ~/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02
 -19 18-06-52.png  used on input line 148.
-(pdftex.def)             Requested size: 375.57782pt x 151.33469pt.
+(pdftex.def)             Requested size: 305.15294pt x 122.95818pt.
  [20 </home/arbon/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02-19 17-49
 -39.png> </home/arbon/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02-19 1
 7-54-18.png> </home/arbon/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02-
@@ -807,7 +807,7 @@ aphic file (type png)
 <use ~/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02-19 18-20-49.png>
 Package pdftex.def Info: ~/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02
 -19 18-20-49.png  used on input line 158.
-(pdftex.def)             Requested size: 375.57782pt x 197.28792pt.
+(pdftex.def)             Requested size: 305.15294pt x 160.2948pt.
 <~/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02-19 18-13-02.png, id=138
 , 1091.07625pt x 487.8225pt>
 File: ~/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02-19 18-13-02.png Gr
@@ -815,17 +815,17 @@ aphic file (type png)
 <use ~/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02-19 18-13-02.png>
 Package pdftex.def Info: ~/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02
 -19 18-13-02.png  used on input line 167.
-(pdftex.def)             Requested size: 375.57782pt x 167.91931pt.
+(pdftex.def)             Requested size: 305.15294pt x 136.43304pt.
 ) [21 </home/arbon/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02-19 18-0
 6-52.png> </home/arbon/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02-19 
-18-20-49.png>] [22 </home/arbon/Documents/SADT/FirstTask/RMS/Screenshot from 20
-23-02-19 18-13-02.png>]
+18-20-49.png> </home/arbon/Documents/SADT/FirstTask/RMS/Screenshot from 2023-02
+-19 18-13-02.png>]
 \openout2 = `./FirstTask/pract1_3.aux'.
 
  (./FirstTask/pract1_3.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 <~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-37-21.png, id=14
-8, 770.88pt x 554.07pt>
+5, 770.88pt x 554.07pt>
 File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-37-21.png G
 raphic file (type png)
 <use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-37-21.png>
@@ -838,14 +838,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--22
  []
 
 <~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-56-11.png, id=14
-9, 1091.07625pt x 334.24875pt>
+6, 1091.07625pt x 334.24875pt>
 File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-56-11.png G
 raphic file (type png)
 <use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-56-11.png>
 Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
 2-19 20-56-11.png  used on input line 25.
 (pdftex.def)             Requested size: 375.57782pt x 115.05582pt.
-[23
+[22
 
 
 
@@ -857,15 +857,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
  []
 
 <~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-59-52.png, id=15
-4, 1091.07625pt x 128.48pt>
+1, 1091.07625pt x 128.48pt>
 File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-59-52.png G
 raphic file (type png)
 <use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-59-52.png>
 Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
 2-19 20-59-52.png  used on input line 37.
-(pdftex.def)             Requested size: 375.57782pt x 44.22565pt.
+(pdftex.def)             Requested size: 422.52057pt x 49.7541pt.
 <~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-16-40.png, id=15
-5, 1091.07625pt x 804.00375pt>
+2, 1091.07625pt x 804.00375pt>
 File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-16-40.png G
 raphic file (type png)
 <use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-16-40.png>
@@ -873,71 +873,128 @@ Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
 2-19 21-16-40.png  used on input line 50.
 (pdftex.def)             Requested size: 375.57782pt x 276.75592pt.
 <~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-21-50.png, id=15
-6, 1091.07625pt x 699.61375pt>
+3, 1091.07625pt x 699.61375pt>
 File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-21-50.png G
 raphic file (type png)
 <use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-21-50.png>
 Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
 2-19 21-21-50.png  used on input line 56.
 (pdftex.def)             Requested size: 375.57782pt x 240.82257pt.
-[24 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-56
+[23 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 20-56
 -11.png> </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 
-20-59-52.png>] [25 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2
+20-59-52.png>] [24 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2
 023-02-19 21-16-40.png> </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot f
 rom 2023-02-19 21-21-50.png>]
 <~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-48-53.png, id=16
-8, 1091.07625pt x 411.5375pt>
+4, 1091.07625pt x 411.5375pt>
 File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-48-53.png G
 raphic file (type png)
 <use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-48-53.png>
 Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
-2-19 21-48-53.png  used on input line 72.
+2-19 21-48-53.png  used on input line 73.
 (pdftex.def)             Requested size: 375.57782pt x 141.66032pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
 []\T2A/cmr/m/n/14.4 Чтобы от-пра-вить все из-ме-не-ния вве-дем ко-ман-ду
  []
 
 <~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 22-00-30.png, id=16
-9, 1092.08pt x 880.28876pt>
+5, 1092.08pt x 880.28876pt>
 File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 22-00-30.png G
 raphic file (type png)
 <use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 22-00-30.png>
 Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
-2-19 22-00-30.png  used on input line 84.
+2-19 22-00-30.png  used on input line 85.
 (pdftex.def)             Requested size: 375.57782pt x 302.73283pt.
-) [26 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-
-48-53.png>] [27 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023
--02-19 22-00-30.png>] (./Main.aux (./res/titleSADT.aux) (./FirstTask/pract1.aux
-) (./FirstTask/pract1_2.aux) (./FirstTask/pract1_3.aux)) ) 
+<~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 11-58-20.png, id=16
+6, 1089.06876pt x 674.52pt>
+File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 11-58-20.png G
+raphic file (type png)
+<use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 11-58-20.png>
+Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
+2-20 11-58-20.png  used on input line 95.
+(pdftex.def)             Requested size: 281.68515pt x 174.45505pt.
+<~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-01-42.png, id=16
+7, 1089.06876pt x 355.3275pt>
+File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-01-42.png G
+raphic file (type png)
+<use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-01-42.png>
+Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
+2-20 12-01-42.png  used on input line 106.
+(pdftex.def)             Requested size: 375.57782pt x 122.53389pt.
+<~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-11-45.png, id=16
+8, 1089.06876pt x 728.7225pt>
+File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-11-45.png G
+raphic file (type png)
+<use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-11-45.png>
+Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
+2-20 12-11-45.png  used on input line 117.
+(pdftex.def)             Requested size: 328.6279pt x 219.88605pt.
+[25 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-19 21-48
+-53.png>] [26 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
+2-19 22-00-30.png> </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2
+023-02-20 11-58-20.png> </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot f
+rom 2023-02-20 12-01-42.png>]
+<~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-12-56.png, id=18
+0, 1089.06876pt x 337.26pt>
+File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-12-56.png G
+raphic file (type png)
+<use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-12-56.png>
+Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
+2-20 12-12-56.png  used on input line 128.
+(pdftex.def)             Requested size: 328.6279pt x 101.76544pt.
+<~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-18-32.png, id=18
+1, 1089.06876pt x 359.3425pt>
+File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-18-32.png G
+raphic file (type png)
+<use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-18-32.png>
+Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
+2-20 12-18-32.png  used on input line 139.
+(pdftex.def)             Requested size: 328.6279pt x 108.42865pt.
+ [27 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-1
+1-45.png> </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20
+ 12-12-56.png>]
+<~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-27-34.png, id=18
+7, 1089.06876pt x 875.27pt>
+File: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-27-34.png G
+raphic file (type png)
+<use ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-27-34.png>
+Package pdftex.def Info: ~/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-0
+2-20 12-27-34.png  used on input line 160.
+(pdftex.def)             Requested size: 375.57782pt x 301.83492pt.
+) [28 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023-02-20 12-
+18-32.png>] [29 </home/arbon/Documents/SADT/FirstTask/BaCD/Screenshot from 2023
+-02-20 12-27-34.png>] (./Main.aux
+(./res/titleSADT.aux) (./FirstTask/pract1.aux) (./FirstTask/pract1_2.aux)
+(./FirstTask/pract1_3.aux)) ) 
 Here is how much of TeX's memory you used:
- 5539 strings out of 479721
- 109968 string characters out of 5887697
- 381100 words of memory out of 5000000
- 23318 multiletter control sequences out of 15000+600000
+ 5594 strings out of 479721
+ 113431 string characters out of 5887697
+ 382183 words of memory out of 5000000
+ 23367 multiletter control sequences out of 15000+600000
  489305 words of font info for 64 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  70i,7n,77p,334b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/arbon/.texliv
-e2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1440.600pk> </home/arbon/.texlive
-2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600pk> </home/arbon/.texliv
-e2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/arbon/.texlive
-2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk> </home/arbon/.texlive2
-021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2986.600pk> </home/arbon/.texlive20
-21/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk> </home/arbon/.texlive202
-1/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx3583.600pk> </home/arbon/.texlive2021
-/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.600pk> </home/arbon/.texlive2021/
-texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </home/arbon/.texlive2021/t
-exmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/arbon/.texlive2021/te
-xmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/arbon/.texlive2021/tex
-mf-var/fonts/pk/ljfour/lh/lh-t2a/labi1728.600pk> </home/arbon/.texlive2021/texm
-f-var/fonts/pk/ljfour/lh/lh-t2a/labi1440.600pk> </home/arbon/.texlive2021/texmf
--var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/arbon/.texlive2021/texmf-
-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk>
-Output written on Main.pdf (27 pages, 2744145 bytes).
+ </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfo
+ur/lh/lh-t2a/latt1440.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/tcrm1440.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfo
+ur/lh/lh-t2a/labx1728.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfou
+r/lh/lh-t2a/labx2074.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour
+/lh/lh-t2a/labx2986.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/
+lh/lh-t2a/labx2488.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/l
+h/lh-t2a/labx3583.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh
+/lh-t2a/lati1000.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/
+lh-t2a/larm1000.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/l
+h-t2a/larm1200.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh
+-t2a/labx1440.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-
+t2a/labi1728.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t
+2a/labi1440.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2
+a/lati1440.600pk> </home/arbon/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a
+/larm1440.600pk>
+Output written on Main.pdf (29 pages, 3417485 bytes).
 PDF statistics:
- 740 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 764 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 195 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -34,7 +34,7 @@
 
 \begin{figure}[h!tp]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-19 20-59-52.png}
+	\includegraphics[width=0.9\textwidth]{Screenshot from 2023-02-19 20-59-52.png}
 	\caption{Создание двух веток}
 	\label{3:fig:git:branch}
 \end{figure}
@@ -59,6 +59,7 @@
 \end{figure}
 
 \section{Слияние веток}
+\label{3:lb:git:merge:conflict}
 Чтобы слить ветку А в ветку Б используется команда: \texttt{git merge Б}.
 Если при силянии появился конфликт и git не смог автоматически разрешить его,
 то необходимо открыть файл с конфилктом в любом из редакторов и исправть
@@ -86,3 +87,77 @@
 	\label{3:fig:git:push:all}
 \end{figure}
 
+\section{Еще три коммита}
+Проведем еще три коммита в ветку branch1 (Рисунок \ref{3:fig:git:3commits}).
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Screenshot from 2023-02-20 11-58-20.png}
+	\caption{Создание еще трех коммитов}
+	\label{3:fig:git:3commits}
+\end{figure}
+
+\section{Еще одно клонирование репозитория}
+Склонируем репозиторий еще раз в другую директорию
+(Рисунок~\ref{3:fig:git:clone:new}).
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-20 12-01-42.png}
+	\caption{Новый клон репозитория}
+	\label{3:fig:git:clone:new}
+\end{figure}
+
+\section{Добавление коммитов в новый репозиторий}
+В новом клоне репозитории сделаем 3 коммита в ветку branch1
+(Рисунок~\ref{3:fig:git:clone:new:commits}).
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Screenshot from 2023-02-20 12-11-45.png}
+	\caption{Три коммита в новом репозитории}
+	\label{3:fig:git:clone:new:commits}
+\end{figure}
+
+\section{Отправка изменнеий из нового репозитория}
+Выгрузим все изменения из нового в удаленный репозиторий
+(Рисунок~\ref{3:fig:git:clone:new:push}).
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Screenshot from 2023-02-20 12-12-56.png}
+	\caption{Выгрузка изменений из нового репозитория}
+	\label{3:fig:git:clone:new:push}
+\end{figure}
+
+\section{Отправка изменнеий из старого репозитория}
+Вернемся в старый клон с репозиторием и выгрузим изменения
+с опцией \verb|--force| (Рисунок~\ref{3:fig:git:clone:push}).
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Screenshot from 2023-02-20 12-18-32.png}
+	\caption{Выгрузка изменений из старого репозитория}
+	\label{3:fig:git:clone:push}
+\end{figure}
+
+\section{Разрешение конфликта слияния веток}
+Теперь получим все изменения в новом репозитории.
+При попытке вытягивания с помощью команды \texttt{git~pull}, git выдал
+ошибку из-за конфликта слияния веток и предложил три метода решения:
+\begin{verbatim}
+	git config pull.rebase false  # merge (the default strategy)
+	git config pull.rebase true   # rebase
+	git config pull.ff only       # fast-forward only
+\end{verbatim}
+Введя одну из команд, снова вводим команду вытягивания. Затем устранияем
+конфилкт слияния, также как это делалось
+выше~(см.~стр.~\pageref{3:lb:git:merge:conflict}).
+Вывод команд показан на рисунке~\ref{3:fig:git:clone:new:pull}.
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-02-20 12-27-34.png}
+	\caption{Вытягивание изменений в новый клон репозитория}
+	\label{3:fig:git:clone:new:pull}
+\end{figure}
