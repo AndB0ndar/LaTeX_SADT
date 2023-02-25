@@ -19,40 +19,12 @@
 % for graphics
 \usepackage{graphicx}
 
-% redefinition of the list enumerate environment
-\renewenvironment{enumerate}{
-	\begin{list}{\labelenumi}
-	  {\usecounter{enumi} \def\makelabel##1{\hss ##1}
-	\setlength{\itemsep}{0pt}
-	\setlength{\parskip}{0pt}
-	\setlength{\parsep}{0pt}
-	\setlength{\topsep}{0pt}
-	\setlength{\partopsep}{0pt}}
-}{ \end{list} }
+\usepackage{enumitem}
+\setlist{nosep}
+\setlist[enumerate]{label*=\arabic*.}
 
 % redefinition of the list enumeration style
 %\renewcommand{\labelitemi}{$\bullet$}
 %\renewcommand{\labelitemii}{$\bullet$}
 %\renewcommand{\labelitemiii}{$\bullet$}
 %\renewcommand{\labelitemiv}{$\bullet$}
-% redefinition of the list itemize environment
-\renewenvironment{itemize}{
-	\begin{list}{\labelitemi}
-		{\def\makelabel##1{\hss ##1}
-	\setlength{\itemsep}{0pt}
-	\setlength{\parskip}{0pt}
-	\setlength{\parsep}{0pt}
-	\setlength{\topsep}{0pt}
-	\setlength{\partopsep}{0pt}
-	}
-}{ \end{list} }
-
-\newcommand{\img}[3] {
-	\begin{figure}[h!tp]
-		\centering
-		\includegraphics[width=0.7\textwidth]{#1}
-		\caption{#2}
-		\label{img:#3}
-	\end{figure}
-}
-
