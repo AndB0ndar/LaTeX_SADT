@@ -3,5 +3,5 @@
 *.fls
 *.toc
 *.out
-*.pdf
 *.log
+./*.pdf
