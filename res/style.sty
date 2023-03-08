@@ -1,4 +1,4 @@
-\ProvidesPackage{Style}
+\ProvidesPackage{style}
 
 \usepackage{cmap} % for pdfLaTeX
 \usepackage[T1,T2A]{fontenc} % correct encoding for pdfLaTeX
@@ -19,6 +19,18 @@
 % for graphics
 \usepackage{graphicx}
 
+\usepackage{amsmath}
+\usepackage{listings}
+\lstset{
+	basicstyle=\small,
+	captionpos=t,
+	frame=single
+}
+
+\usepackage{boxedminipage}
+
+\usepackage{pdfpages}
+
 \usepackage{hyperref}
 \hypersetup{
     pdfborder = {0 0 0}
@@ -28,10 +40,16 @@
 \setlist{nosep}
 \setlist[enumerate]{label*=\arabic*.}
 
-\providecommand\No{\textnumero}
+
+\providecommand{\No}{\textnumero}
+
+
+%\setlength{\abovecaptionskip}{3pt}
+%\setlength{\belowcaptionskip}{3pt}
 
 % redefinition of the list enumeration style
 %\renewcommand{\labelitemi}{$\bullet$}
 %\renewcommand{\labelitemii}{$\bullet$}
 %\renewcommand{\labelitemiii}{$\bullet$}
 %\renewcommand{\labelitemiv}{$\bullet$}
+

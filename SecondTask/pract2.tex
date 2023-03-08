@@ -1,0 +1,82 @@
+%\graphicspath{{/home/arbon/Pictures/Screenshots/}} % path to graphics
+\graphicspath{{~/Documents/SADT/SecondTask/}}
+\chapter*{\LARGE{Цель практической работы}}
+\addcontentsline{toc}{chapter}{Цель практической работы}
+Данная практическая работа посвящена написанию базовых bash-скриптов.
+
+По сути своей Bash-скриптов представляют из себя ни что иное как
+последовательность команд командной строки, объединенных в один файл
+для решения какой-либо задачи.
+
+\chapter{Базовые Bash скрипты}
+
+\paragraph{Cценарий, который выводит дату, время, список
+зарегистрировавшихся пользователей, и uptime системы и сохраняет
+эту информацию в файл}\mbox{}\par
+Данный сценарий принемает параметром имя файла в который будет сохранятся
+информация. Сам сценарий будет состоять из четырех команд:
+\begin{itemize}
+	\item \texttt{data} - выводит текущую дату и время;
+	\item \texttt{cat} - выводит содержимое файла переданного ей параметром.
+		В скрипте параметром передается файл \texttt{/etc/passwd},
+		где храниться список всех пользователей;
+	\item \texttt{cut} - обрезает строки, переданные ей на вход;
+	\item \texttt{uptime} - возвращает информацию как долго система
+		была запущена.
+\end{itemize}
+
+Код скрипта показан в листнинге \ref{lst:date}.
+\lstinputlisting[language=Bash
+	, caption=\leftline{Код скрипта}
+	, label=lst:date]
+	{./SecondTask/scripts/task1.sh}
+
+\paragraph{Cценарий, который выводит содержимое любого каталога
+или сообщение о том, что его не существует}\mbox{}\par
+Для реализации данного скрипта используется управляющая конструкция
+\texttt{if-then-else}. В условии используется команда \texttt{test},
+ее сокращенная форма с квадратными скобками, и флаг \texttt{-d}
+для проверки файла, является ли он директорией.
+
+Код скрипта показан в листнинге \ref{lst:chdir}.
+\lstinputlisting[language=Bash
+	, caption=\leftline{Проверка на директорию}
+	, label=lst:chdir]
+	{./SecondTask/scripts/task2.sh}
+
+\paragraph{Cценарий, который с помощью цикла прочитает файл и
+выведет его содержимое}\mbox{}\par
+Чтобы построчно прочитать файл использовался цикл \texttt{while} и в качестве
+условию выступал результат команды \texttt{read line}, которая читает строки
+из стандартного потока. Чтобы чтение происходило из файла, перенаправили
+стандартный поток ввода в файл, переданный параметром.
+
+Код скрипта показан в листнинге \ref{lst:cat}.
+\lstinputlisting[language=Bash
+	, caption=\leftline{Вывод содержимого файла}
+	, label=lst:cat]
+	{./SecondTask/scripts/task3.sh}
+
+\paragraph{Cценарий, который с помощью цикла выведет список
+файлов и директорий из текущего каталога, укажет, что есть файл, а
+что директория}\mbox{}\par
+\lstinputlisting[language=Bash
+	, caption=\leftline{Проверка на директорию}
+	, label=lst:chdir]
+	{./SecondTask/scripts/task4.sh}
+
+\paragraph{Cценарий, который подсчитает объем диска, занимаемого
+директорией}\mbox{}\par
+\lstinputlisting[language=Bash
+	, caption=\leftline{Проверка на директорию}
+	, label=lst:chdir]
+	{./SecondTask/scripts/task5.sh}
+
+\paragraph{Cценарий, который выведет список всех исполняемых
+файлов в директории, для которых у текущего пользователя есть права
+на исполнение}\mbox{}\par
+\lstinputlisting[language=Bash
+	, caption=\leftline{Проверка на директорию}
+	, label=lst:chdir]
+	{./SecondTask/scripts/task6.sh}
+
