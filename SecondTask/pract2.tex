@@ -1,5 +1,5 @@
 %\graphicspath{{/home/arbon/Pictures/Screenshots/}} % path to graphics
-\graphicspath{{~/Documents/SADT/SecondTask/}}
+\graphicspath{{~/Documents/SADT/SecondTask/img/}}
 \chapter*{\LARGE{Цель практической работы}}
 \addcontentsline{toc}{chapter}{Цель практической работы}
 Данная практическая работа посвящена написанию базовых bash-скриптов.
@@ -238,4 +238,128 @@ python3 -m venv venv
 \end{lstlisting}
 
 \chapter{Gradle}
+\paragraph{Найти отсутствующую зависимость и указать ее в соответствующем
+блоке в build.gradle, чтобы проект снова начал собираться}\mbox{}\par
+При попытке собрать проект, командой: \texttt{./gradlew~build},
+в файле ClientController был обнаружен импорт на не зарегистрированную
+зависимость \texttt{import~com.opencsv.bean.CsvToBeanBuilder}.
+Сообщение об ошибке показано на рисунке~\ref{fig:gradle:dep:undisc:error}.
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Screenshot from 2023-03-12 18-05-52.png}
+	\caption{Ошибка зависимоти}
+	\label{fig:gradle:dep:undisc:error}
+\end{figure}
+
+Поэтому файл build.gradle была изменен как показано
+на рисунке~\ref{fig:gradle:dep:undisc:good}.
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-03-12 17-25-18.png}
+	\caption{Устраниение ошибки зависимости}
+	\label{fig:gradle:dep:undisc:good}
+\end{figure}
+
+\paragraph{В некоторых классах поправить имя пакета}\mbox{}\par
+При попытке собрать проект, командой: \texttt{./gradlew~build},
+в файле ClientController были обнаружены не импортируемые пакеты.
+Сообщение об ошибке показано на рисунке~\ref{fig:gradle:imp:error}.
+Поэтому в соответствующие файлы были внесены необходимые строки.
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-03-12 18-16-05.png}
+	\caption{Ошибки не омпортируемых пакетов}
+	\label{fig:gradle:imp:error}
+\end{figure}
+
+А также необходимо исправить имя пакета в файле build.gradle, как показано
+на рисунке~\ref{fig:gradle:build:pack}.
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-03-12 19-08-52.png}
+	\caption{Исправление пакет в build.grable}
+	\label{fig:gradle:build:pack}
+\end{figure}
+\paragraph{Собрать документацию проекта, найти в ней запросы состояния
+и сущности по идентификатору}\mbox{}\par
+Для создания документации использовалась команда: \texttt{./gradlew~javadoc}.
+Сгенерированая документация появиться в каталоге gradle/docs.
+Пример сгенерированной документации показан
+на рисунке~\ref{fig:gradle:javadoc}.
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-03-12 18-27-47.png}
+	\caption{Сгенерированая документация}
+	\label{fig:gradle:javadoc}
+\end{figure}
+
+\paragraph{Собрать jar со всеми зависимостями (так называемый UberJar),
+после чего запустить приложение. По умолчанию,
+сервер стартует на порту 8080}\mbox{}\par
+Для генерации jar понадобилась команда \texttt{./gradlew shadowJar},
+которая собрает UberJar (архив со всеми зависимостями)
+Для запуска приложения используется команда: \texttt{./gradlew run}
+(Рисунок~\ref{fig:gradle:run}).
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-03-12 19-16-01.png}
+	\caption{Сборка jar и запуск приложения}
+	\label{fig:gradle:run}
+\end{figure}
+
+\paragraph{Запросить состояние запущенного сервера
+(GET запрос по адресу http://localhost:8080)}\mbox{}\par
+Получить (GET) страницу в Linux можно с помощью команды: \texttt{curl}.
+Вывод команды показан на рисунке~\ref{fig:curl}.
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-03-12 19-51-03.png}
+	\caption{GET запрос}
+	\label{fig:curl}
+\end{figure}
+
+\paragraph{Запросить сущность по идентификатору
+(GET запрос по адресу: http://localhost:8080/сущность/идентификатор)
+Идентификатором будут 3 последних цифры в серийном номере вашего
+студенческого билета.}\mbox{}\par
+Аналогично примеру выше использовали каманду \texttt{curl},
+передав параметром путь \textit{http://localhost:8080/client/874}.
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-03-12 20-08-05.png}
+	\caption{GET запрос}
+	\label{fig:curl:d}
+\end{figure}
+
+\paragraph{В задаче shadowJar добавить к jar-файлу вашу фамилию}\mbox{}\par
+Чтобы добавить к jar-файлу текст нужно изменить файл build.gradle, как
+показано на рисунке~\ref{fig:jar:rename}
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-03-12 20-32-59.png}
+	\caption{Измененный build.gradle}
+	\label{fig:jar:rename}
+\end{figure}
+
+Теперь после генерации в каталоге build/<имя проекта>/ появиться jar-файл
+(Рисунок \ref{fig:jar:file}).
+
+\begin{figure}[h!tp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-03-12 20-32-42.png}
+	\caption{Jar-файл}
+	\label{fig:jar:file}
+\end{figure}
+
+\paragraph{Выполнить задачу checkstyleMain. Посмотреть сгенерированный отчет.
+Устранить ошибки оформления кода.}\mbox{}\par
 
