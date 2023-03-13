@@ -1,0 +1,63 @@
+%\graphicspath{{~/Pictures/Screenshots/}} % path to graphics
+\graphicspath{{./img/}} % path to graphics
+
+\chapter{Разработка проекта и системы сборки}
+\section{Файл README.md}
+README --- это первый файл, который нужно читать, получив доступ к проекту
+на Github или любой Git-хостинговой площадке. Этот файл в первую очередь
+и предлагается вниманию пользователя, когда он открывает здесь репозиторий
+того или иного проекта. Такой файл содержит кучу полезной информации, так что
+его вполне можно рассматривать как справочное руководство по проекту.\par
+Расширение \texttt{.md} --- это сокращение от слова markdown.\par
+Markdown — язык текстовой разметки, созданный писателем и блогером
+Джоном Грубером. Он предназначен для создания красиво оформленных текстов
+в обычных файлах формата TXT.\par
+Для данного проекта был написан такой README-файл:\\
+\textit{...}
+
+\section{Система сборки}
+Setuptools --- это полнофункциональная, активно поддерживаемая
+и стабильная библиотека, предназначенная для облегчения упаковки
+проектов на Python.
+
+Это помогает разработчикам легко обмениваться повторно используемым кодом
+(в виде библиотеки) и программами (например, инструментами CLI / GUI,
+реализованными на Python), которые могут быть установлены с помощью pip
+и загружены в PyPI.
+
+\begin{lstlisting}[language=Python
+	, caption=\leftline{Текст файла setup.py}
+	, label=lst:setup]
+from setuptools import setup, find_packages
+from os import path
+
+here = path.abspath(path.dirname(__file__))
+long_description = open(here+"/"+"README.md", 'r').read()
+
+if __name__ == "__main__":
+	setup(
+		name="BotQueueTg",
+		version="1.0.0",
+		description="Python project implementing\
+			a bot queue in the telegram social network",
+		packages=find_packages(
+			exclude=['venv']
+		),
+		install_requires=['pyTelegramBotAPI']
+	)
+\end{lstlisting}
+
+\section{Docstrings}
+Строки документации (docstrings) в Python --- это строковые литералы,
+которые пишутся сразу после определения функции, метода, класса или модуля.
+
+\section{Сборка документации проекта}
+Sphinx (англ. SQL Phrase Index) --- система полнотекстового поиска,
+отличительной особенностью которого является высокая скорость индексации
+и поиска, а также интеграция с существующими СУБД (MySQL, PostgreSQL)
+и API для распространённых языков веб-программирования
+(официально поддерживаются PHP, Python, Java, также существуют реализованные
+сообществом API для Perl, Ruby, .NET и C++).\par
+Использование Sphinx значительно повышает скорость поиска и снижает
+затраты ресурсов.
+

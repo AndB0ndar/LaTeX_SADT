@@ -1,4 +1,4 @@
-\ProvidesPackage{Style}
+\ProvidesPackage{style}
 
 \usepackage{cmap} % for pdfLaTeX
 \usepackage[T1,T2A]{fontenc} % correct encoding for pdfLaTeX
@@ -19,7 +19,20 @@
 % for graphics
 \usepackage{graphicx}
 
-%for include pdf pages
+\usepackage{amsmath}
+\usepackage{listings}
+\lstset{
+	basicstyle=\small,
+	captionpos=t,
+	tabsize=4,
+	frame=single,
+	showspaces=flase,
+	showstringspaces=false,
+	showtabs=false
+}
+
+\usepackage{boxedminipage}
+
 \usepackage{pdfpages}
 
 \usepackage{hyperref}
@@ -31,11 +44,22 @@
 \setlist{nosep}
 \setlist[enumerate]{label*=\arabic*.}
 
+% for non-end-to-end numbering
+%\usepackage{chngcntr}
+%\counterwithin{figure}{section}
+%\counterwithin{table}{section}
+
+\clubpenalty=9999
+\widowpenalty=9999
 
 \providecommand{\No}{\textnumero}
+
+%\setlength{\abovecaptionskip}{3pt}
+%\setlength{\belowcaptionskip}{3pt}
 
 % redefinition of the list enumeration style
 %\renewcommand{\labelitemi}{$\bullet$}
 %\renewcommand{\labelitemii}{$\bullet$}
 %\renewcommand{\labelitemiii}{$\bullet$}
 %\renewcommand{\labelitemiv}{$\bullet$}
+

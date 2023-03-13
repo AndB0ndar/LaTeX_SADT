@@ -4,4 +4,4 @@
 *.toc
 *.out
 *.log
-./*.pdf
+*.pdf
