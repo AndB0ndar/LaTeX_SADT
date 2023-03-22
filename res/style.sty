@@ -43,6 +43,7 @@
 \usepackage{enumitem}
 \setlist{nosep}
 \setlist[enumerate]{label*=\arabic*.}
+\setlist[description]{style=nextline}
 
 % for non-end-to-end numbering
 %\usepackage{chngcntr}
@@ -53,6 +54,11 @@
 \widowpenalty=9999
 
 \providecommand{\No}{\textnumero}
+
+\newlist{stpenumerate}{enumerate}{3}
+\setlist[stpenumerate]{label=\textbf{Шаг \arabic*}}
+\newlist{stgenumerate}{enumerate}{3}
+\setlist[stgenumerate]{label=\textbf{Этап \arabic*}}
 
 %\setlength{\abovecaptionskip}{3pt}
 %\setlength{\belowcaptionskip}{3pt}
