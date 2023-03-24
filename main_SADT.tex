@@ -2,8 +2,15 @@
 
 \usepackage{./res/Style}
 
+\lstdefinelanguage{Dockerfile}
+{
+  morekeywords={FROM, RUN, CMD, LABEL, MAINTAINER, EXPOSE, ENV, ADD, COPY,
+    ENTRYPOINT, VOLUME, USER, WORKDIR, ARG, ONBUILD, STOPSIGNAL, HEALTHCHECK,
+    SHELL},
+  morecomment=[l]{\#},
+  morestring=[b]"
+}
 
-\author{Bondar Andrei Renatovich}
 \title{Итоговый проект}
 \date{\today}
 
@@ -12,9 +19,11 @@
 \renewcommand{\contentsname}{Содержание}
 
 \include{./res/title_SADT.tex}
+
 \tableofcontents
 
 \include{./part_1.tex}
 \include{./part_2.tex}
+\include{./part_3.tex}
 
 \end{document}

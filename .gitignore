@@ -5,3 +5,6 @@
 *.out
 *.log
 *.pdf
+Makefile
+clr
+run

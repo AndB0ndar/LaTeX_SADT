@@ -16,6 +16,7 @@
 \setlength{\parindent}{1.25cm}
 \sloppy
 
+
 % for graphics
 \usepackage{graphicx}
 
@@ -23,9 +24,10 @@
 \usepackage{listings}
 \lstset{
 	basicstyle=\small,
+	frame=single,
 	captionpos=t,
 	tabsize=4,
-	frame=single,
+    keepspaces=true,
 	showspaces=flase,
 	showstringspaces=false,
 	showtabs=false
@@ -68,4 +70,11 @@
 %\renewcommand{\labelitemii}{$\bullet$}
 %\renewcommand{\labelitemiii}{$\bullet$}
 %\renewcommand{\labelitemiv}{$\bullet$}
+
+\newenvironment{image}{
+	\begin{figure}[h!tp]
+	\centering
+}{
+	\end{figure}
+}
 
