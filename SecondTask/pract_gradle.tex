@@ -5,12 +5,11 @@
 зависимость \texttt{import~com.opencsv.bean.CsvToBeanBuilder}.
 Сообщение об ошибке показано на рисунке~\ref{fig:gradle:dep:undisc:error}.
 
-\begin{figure}[h!tp]
-	\centering
+\begin{image}
 	\includegraphics[width=0.8\textwidth]{Screenshot from 2023-03-12 18-05-52.png}
 	\caption{Ошибка зависимоти}
 	\label{fig:gradle:dep:undisc:error}
-\end{figure}
+\end{image}
 
 Поэтому файл build.gradle была изменен как показано
 на рисунке~\ref{fig:gradle:dep:undisc:good}.
@@ -146,20 +145,20 @@
 
 \clearpage
 
-\section*{Ответы на вопросы}
-\addcontentsline{toc}{section}{Ответы на вопросы}
+\chapter*{Ответы на вопросы}
+\addcontentsline{toc}{chapter}{Ответы на вопросы}
 
 \begin{description}
-	\item[Что такое система сборки?]\mbox{}\\
+	\item[Что такое система сборки?]
 		Система сборки --- это программа, которая собирает другие программы.
 		На вход система сборки получает исходный код, а на выход выдаёт
 		программу, которую уже можно запустить.
-	\item[Что такое gradle?]\mbox{}\\
+	\item[Что такое gradle?]
 		Gradle --- система автоматической сборки, построенная на принципах
 		Apache Ant и Apache Maven, но предоставляющая DSL на языках
 		Groovy и Kotlin вместо традиционной XML-образной формы представления
 		конфигурации проекта.
-	\item[Что такое maven?]\mbox{}\\
+	\item[Что такое maven?]
 		Maven --- инструмент для автоматизации сборки проектов.
 		С ним работают в основном Java-разработчики, хотя есть плагины
 		для интеграции с C/C++, Ruby, Scala, PHP и другими языками.\par
@@ -168,16 +167,16 @@
 		каждому аспекту сборки --- все необходимые параметры настроены
 		по умолчанию. Изменения нужно вносить лишь в том объёме,
 		в котором программист хочет отклониться от стандартных настроек.
-	\item[Что делает задача build?]\mbox{}\\
+	\item[Что делает задача build?]
 		Задача \texttt{build} выполнит сборку проекта для продакшена
 		(т.е. она запустит \texttt{clean:build}, \texttt{html:build},
 		\texttt{css:build}, \texttt{js:build}, \texttt{fonts:build}
 		и \texttt{image:build}). Эти задачи поместят
 		в каталог "assets/build" результирующие файлы проекта.
-	\item[Что такое micronaut?]\mbox{}\\
+	\item[Что такое micronaut?]
 		Micronaut --- это фреймворк на JVM для построения легковесных
 		модульных приложений.
-	\item[Что такое postman?]\mbox{}\\
+	\item[Что такое postman?]
 		Postman --- это платформа API для создания и использования API.
 		Postman упрощает каждый этап жизненного цикла API, а также совместную
 		работу, что позволяет быстрее создавать улучшенные API.

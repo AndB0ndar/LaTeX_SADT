@@ -6,3 +6,5 @@
 *.pdf
 *.log
 Makefile
+clr
+run
