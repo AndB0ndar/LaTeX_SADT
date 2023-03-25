@@ -24,9 +24,10 @@
 \usepackage{listings}
 \lstset{
 	basicstyle=\small,
+	frame=single,
 	captionpos=t,
 	tabsize=4,
-	frame=single,
+    keepspaces=true,
 	showspaces=flase,
 	showstringspaces=false,
 	showtabs=false
@@ -45,6 +46,9 @@
 \setlist{nosep}
 \setlist[enumerate]{label*=\arabic*.}
 \setlist[description]{style=nextline}
+
+% for headers and footers
+\usepackage{fancyhdr}
 
 % for non-end-to-end numbering
 %\usepackage{chngcntr}
