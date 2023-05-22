@@ -27,11 +27,14 @@
 	frame=single,
 	captionpos=t,
 	tabsize=4,
-	columns=flexible,
+	breaklines,
+	columns=fullflexible,
+    flexiblecolumns,
     keepspaces=true,
 	showspaces=flase,
 	showstringspaces=false,
-	showtabs=false
+	showtabs=false,
+    extendedchars=\true
 }
 
 \usepackage{longtable}
@@ -61,19 +64,8 @@
 
 \providecommand{\No}{\textnumero}
 
-\newlist{stpenumerate}{enumerate}{3}
-\setlist[stpenumerate]{label=\textbf{Шаг \arabic*}}
-\newlist{stgenumerate}{enumerate}{3}
-\setlist[stgenumerate]{label=\textbf{Этап \arabic*}}
-
 %\setlength{\abovecaptionskip}{3pt}
 %\setlength{\belowcaptionskip}{3pt}
-
-% redefinition of the list enumeration style
-%\renewcommand{\labelitemi}{$\bullet$}
-%\renewcommand{\labelitemii}{$\bullet$}
-%\renewcommand{\labelitemiii}{$\bullet$}
-%\renewcommand{\labelitemiv}{$\bullet$}
 
 \newenvironment{image}{
 	\begin{figure}[h!tp]
@@ -81,4 +73,5 @@
 }{
 	\end{figure}
 }
+\newcommand\includegrph[2][width=0.8\textwidth]{\includegraphics[#1]{#2}}
 

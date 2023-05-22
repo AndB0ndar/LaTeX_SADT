@@ -1,0 +1,206 @@
+\graphicspath{{./fourth/img/}}
+
+\section*{\LARGE Введение}
+\addcontentsline{toc}{section}{Введение}
+\textbf{Цель работы:} получить навыки настройки вычислительной
+инфраструктуры при помощи системы конфигурационного управления
+Ansible
+\textbf{Задание:}
+Написать роль для запуска сервера nginx, написать playbook для
+применения роли, провести тестовый запуск playbook’а, в случае успешного
+прохождения теста, применить playbook к серверам.\par
+Необходимо добавить переменную, содержащую ФИО, номер группы и
+номер варианта. Данная переменная должна выводиться в шаблонный файл
+nginx.\par
+Установка пакета выполняется при помощи модуля APT, используемого
+для установки nginx в базовой роли.\par
+Добавьте в playbook task по установке пакета согласно варианту:
+3. wget.
+
+\clearpage
+
+\section{Индивидуальные задания}
+Хостовая машина является основной с операционной системой Ubuntu. В 
+качестве управляемой машины будет применялась виртуальная машина с 
+установленной системой Ubuntu. Доступ к управляемой машине 
+реализовывался с помощью сетевого моста, активированного в Visual Box и 
+SSH протокола.\par
+Для начала произведем настройку при помощи файла
+\textit{/etc/network/interfaces}. Открыв его в редакторе vim, увидем набор
+параметров для двух интерфейсов lo и wlo1. Второй
+интерфейс необходимо настроить по следующему подобию.
+
+\begin{image}
+	\includegrph{Screenshot from 2023-05-22 18-06-32}
+	\caption{Конфигурация интерфейса}
+\end{image}
+
+Чтобы узнать адрес той сети, в которой расположена
+хостовая машина в Linux есть команда: \texttt{hostname -I}.\par
+Ещё одним важным шагом является установка ssh-сервера, который
+позволит удалённо подключаться к машине. Установить его можно при
+помощи команды:
+
+\begin{verbatim}
+apt install ssh
+\end{verbatim}
+
+Теперь можем написать роль для запуска сервера nginx.\par
+Сперва вернёмся в рабочую папку со всеми файлами для
+Ansible и создадим там директорию \textit{roles}. После чего перейдём в эту
+директорию и инициируем роль стандартной структуры при помощи команды:
+
+\begin{verbatim}
+ansible-galaxy init nginx
+\end{verbatim}
+
+Перейдём к созданию роли. Заполним соответствующие файлы данными
+из секций playbook’а и соответствующие директории ранее созданными
+файлами.\par
+Это значит, что в директории tasks файл main.yml должен быть
+заполнен данными из секции tasks. В директории vars --- из секции vars. В
+директории handlers --- из секции handlers. Также файлы из директорий
+files и templates должны быть перемещены в директории files и
+templates в папке роли.\par
+
+\begin{lstlisting}[language=xml
+	, caption=\leftline{Playbook для запуска роли}
+	]
+---
+- name: Install and config Nginx via Role
+  hosts: webservers
+  become: yes
+
+  roles:
+    - nginx
+\end{lstlisting}
+
+\begin{lstlisting}[language=xml
+	, caption=\leftline{Сценарии task, используемые в роли}
+	]
+# tasks file for nginx
+---
+- name: Install Nginx
+  apt:
+    name=nginx state=present update_cache=yes
+  when:
+    ansible_os_family == "Debian"
+  notify:
+    - Nginx Systemd
+
+- name: Delete default HTML files
+  shell: /bin/rm -rf /usr/share/nginx/html/*.html
+  args:
+    warn: false
+
+- name: Replace config file
+  vars:
+    nginx_user: user
+    worker_processes: 2
+    worker_connections: 256
+  template:
+    src: templates/nginx.conf.j2
+    dest: /etc/nginx/nginx.conf
+    mode: 0644
+  register: result
+  failed_when: result.failed == true
+  notify: Reload Nginx
+
+- name: Copy index file
+  copy: src=files/index.html dest={{ html_dir }} mode=0644
+  notify: Reload Nginx
+
+- name: Generate dynamic HTML from template
+  template:
+    src=templates/who.html.j2 dest={{ html_dir }}/who.html owner=root mode=0644
+  notify: Reload Nginx
+
+- name: Install wget
+  apt:
+    name=wget state=present update_cache=yes
+\end{lstlisting}
+
+\begin{lstlisting}[language=xml
+	, caption=\leftline{Переменные, используемые в роли}
+	]
+---
+# vars file for nginx
+  html_dir: /usr/share/nginx/html
+  greeting: Бондарь Андрей Ренатович, ИКБО-06-21, 3
+\end{lstlisting}
+
+\begin{lstlisting}[language=xml
+	, caption=\leftline{Обработчики (handlers), используемые в роли}
+	]
+---
+# handlers file for nginx
+- name: Nginx Systemd
+  systemd:
+    name: nginx
+    enabled: yes
+    state: started
+- name: Reload Nginx
+  systemd: name=nginx state=reloaded
+\end{lstlisting}
+
+\begin{lstlisting}[language=xml
+	, caption=\leftline{Шаблон страницы, используемый в роли}
+	]
+"Server {{ ansible_hostname }} ( ip {{ansible_default_ipv4.address }} )
+	greets you: {{ greeting | default("Hello") }}!"
+\end{lstlisting}
+
+
+\begin{lstlisting}[language=xml
+	, caption=\leftline{Шаблон конфигурационного файла, используемый в роли}
+	]
+# Пользователь, из-под которого будет запущен nginx
+user {{ nginx_user }};
+# Количество рабочих процессов, которые будет задействовать nginx
+worker_processes {{ worker_processes }};
+error_log /var/log/nginx/error.log warn;
+pid /var/run/nginx.pid;
+events {
+ # Число соединений, которое может поддерживать каждый пр оцесс
+	worker_connections {{ worker_connections }};
+}
+http {
+	include /etc/nginx/mime.types;
+	default_type application/octet-stream;
+	keepalive_timeout 60;
+	gzip on;
+	server {
+	access_log off;
+		location / {
+			root /usr/share/nginx/html;
+			try_files \$uri \$uri/ \$uri.html /index.html;
+		}
+	}
+}
+\end{lstlisting}
+
+После написания роли его можно выполнить при помощи
+следующей команды: \texttt{ansible-playbook -i hosts <имя файла роли>}.
+
+\begin{image}
+	\includegrph{Screenshot from 2023-05-22 18-14-14}
+	\caption{Запуск ansible}
+\end{image}
+
+Результат запуска сервера можно проверить утилитой \texttt{curl}:
+
+\begin{image}
+	\includegrph{Screenshot from 2023-05-22 18-30-17.png}
+	\caption{Запуск ansible}
+\end{image}
+
+\clearpage
+
+\section*{\LARGE Выводы}
+\addcontentsline{toc}{section}{Выводы}
+В данной работе были приобретены навыки работы с системой 
+управления конфигурациями Ansible. В том числе написание собственных
+playbook'ов и ролей.\par
+Более того, были получены 
+компетенции в области работы с оболочкой bash и протоколом SSH.
+
